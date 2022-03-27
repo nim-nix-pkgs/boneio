@@ -11,6 +11,7 @@
   inputs.src-boneIO-master.ref   = "refs/heads/master";
   inputs.src-boneIO-master.owner = "xyz32";
   inputs.src-boneIO-master.repo  = "boneIO";
+  inputs.src-boneIO-master.dir   = "";
   inputs.src-boneIO-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
